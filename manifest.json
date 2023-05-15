@@ -1,0 +1,16 @@
+{
+  "name": "tbDEX totes legit app",
+  "short_name": "tbDEX",
+  "description": "A Web5.js App for purchasing BTC",
+  "icons": [
+    {
+      "src": "https://www.tbd.website/images/tbd-fav-icon-main.png",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "orientation": "any"
+}
