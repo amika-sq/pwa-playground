@@ -27,10 +27,10 @@
   </head>
   <body>
     <h>{TBD logo}</h>
-    <button onclick="getVC()">Get VCs From Wallet</button>
+    <button onclick="getVCs()">Get VCs From Wallet</button>
     
     <script>
-      function getVC() { 
+      function getVCs() { 
         browser.runtime.sendMessage(
           "org.name.web5wallet.WebExtension1 (588U2P8MCF)",
           {command: "getVC"},
